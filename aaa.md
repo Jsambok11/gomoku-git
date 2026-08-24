@@ -24,10 +24,10 @@ classDiagram
     }
 
     %% Relationer
+    Spel -- Resultat : får
     Spel -- Spelare : deltagare
     Spel -- Bräde : spelplan
     Spel -- Tur : består av
-    Spel -- Resultat : får
     Bräde -- Ruta : består av
     Ruta -- Sten : kan innehålla
     Tur -- Spelare : utförs av
