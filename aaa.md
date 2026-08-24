@@ -5,6 +5,9 @@ classDiagram
     class Spel {
     }
 
+    class Resultat {
+    }
+
     class Spelare {
     }
 
@@ -18,9 +21,6 @@ classDiagram
     }
 
     class Tur {
-    }
-
-    class Resultat {
     }
 
     %% Relationer
