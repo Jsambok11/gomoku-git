@@ -24,13 +24,13 @@ classDiagram
     }
 
     %% Relationer
-    Spel -- Spelare : har deltagare
-    Spel -- Bräde : har spelplan
-    Spel -- Tur : har händelseförlopp
+    Spel -- Spelare : deltagare
+    Spel -- Bräde : spelplan
+    Spel -- Tur : består av
     Spel -- Resultat : får
     Bräde -- Ruta : består av
     Ruta -- Sten : kan innehålla
     Tur -- Spelare : utförs av
-    Tur -- Ruta : sker vid
+    Tur -- Ruta : sker på
     Spelare -- Sten : spelar med
 ```
