@@ -29,7 +29,6 @@ classDiagram
     class Oavgjort {
     }
 
-    %% Relationer
     Spel -- Resultat : får
     Spel -- Spelare : deltagare
     Spel -- Bräde : består av
