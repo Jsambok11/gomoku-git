@@ -23,6 +23,12 @@ classDiagram
     class Tur {
     }
 
+    class ´Vinst/Förlust´ {
+    }
+
+    class Oavgjort {
+    }
+
     %% Relationer
     Spel -- Resultat : får
     Spel -- Spelare : deltagare
@@ -33,4 +39,6 @@ classDiagram
     Tur -- Spelare : utförs av
     Tur -- Ruta : sker på
     Spelare -- Sten : spelar med
+    Resultat -- ´Vinst/Förlust´ : kan vara
+    Resultat -- Oavgjort : kan vara
 ```
