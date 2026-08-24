@@ -32,7 +32,7 @@ classDiagram
     %% Relationer
     Spel -- Resultat : får
     Spel -- Spelare : deltagare
-    Spel -- Bräde : spelplan
+    Spel -- Bräde : består av
     Spel -- Tur : består av
     Bräde -- Ruta : består av
     Ruta -- Sten : kan innehålla
