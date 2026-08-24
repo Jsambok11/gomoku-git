@@ -34,6 +34,6 @@ classDiagram
     Spelare "1" o-- "1..*" Sten : a
     Brädet "1" o-- "0..*" Sten : a
 
-    Spel "1" --> "0..1" seger/förlust : a
+    Spel "1" --> "0..1" `seger/förlust` : a
     Spel "1" --> "0..1" Oavgjort : a
 ```
