@@ -42,29 +42,29 @@ classDiagram
     Resultat -- Oavgjort : kan vara
 ```
 
-#### Spel
+##### Spel
 Spel är en enskild spelomgång av Gomoku
 
-#### Spelare
+##### Spelare
 Aktor som agerar i spelet
 
-#### Bräde
+##### Bräde
 Spelplan där spelet genomförs
 
-#### Ruta
+##### Ruta
 Unik punkt på brädet som man kan placera sten på
 
-#### Sten
+##### Sten
 Spelmärke som spelare placerar i rutor
 
-#### Tur
+##### Tur
 En Handling i spelomgång
 
-#### Resultat
+##### Resultat
 Slutliga tillstånd
 
-#### Vinst/Förlust
+##### Vinst/Förlust
 Match som slutade med en spelare som placerade 5 stenar horizontalt, vertikalt och diagonal
 
-#### Oavgjort
+##### Oavgjort
 Matchen där ingen av spelare kunde placera 5 stenar horizontalt, vertikalt och diagonal
