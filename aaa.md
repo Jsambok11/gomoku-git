@@ -5,13 +5,13 @@ classDiagram
     class Spel {
     }
 
-    class Tur {
-    }
-
     class Spelare {
     }
 
     class Sten {
+    }
+
+    class Tur {
     }
 
     class Bräde {
