@@ -24,16 +24,13 @@ classDiagram
     }
 
     %% Relationer
-    Spel *--  Spelare
-    Spel *--  Bräde
-    Spel *--  Tur
-    Spel -->  Resultat
-
-    Bräde *-- Ruta
-    Ruta o-- Sten
-
-    Tur --> Spelare
-    Tur --> Ruta
-
+    Spel --  Spelare
+    Spel --  Bräde
+    Spel --  Tur
+    Spel --  Resultat
+    Bräde -- Ruta
+    Ruta -- Sten
+    Tur -- Spelare
+    Tur -- Ruta
     Spelare -- Sten
 ```
