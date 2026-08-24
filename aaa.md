@@ -24,16 +24,16 @@ classDiagram
     }
 
     %% Relationer
-    Spel "1" *-- "2" Spelare :
-    Spel "1" *-- "1" Brädet :
-    Spel "1" *-- "0..*" Tur :
+    Spel "1" *-- "2" Spelare : a
+    Spel "1" *-- "1" Brädet : a
+    Spel "1" *-- "0..*" Tur : a
     
-    Tur "1" --> "1" Spelare :
-    Tur "1" --> "1" Sten :
+    Tur "1" --> "1" Spelare : a
+    Tur "1" --> "1" Sten : a
 
-    Spelare "1" o-- "1..*" Sten :
-    Brädet "1" o-- "0..*" Sten :
+    Spelare "1" o-- "1..*" Sten : a
+    Brädet "1" o-- "0..*" Sten : a
 
-    Spel "1" --> "0..1" seger/förlust :
-    Spel "1" --> "0..1" Oavgjort :
+    Spel "1" --> "0..1" seger/förlust : a
+    Spel "1" --> "0..1" Oavgjort : a
 ```
